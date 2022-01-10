@@ -6,6 +6,7 @@
       <parameter name="url" value="https://admin-demo.nopcommerce.com/"/>
       <classes>
       <class name="ecommerce.products.TC.TC_HealthCheck"/>
+		<class name="ecommerce.products.TC.TC_CustomerMenuNavigation"/>
       </classes>
   </test> <!-- Test --> 
    
