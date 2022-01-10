@@ -29,5 +29,7 @@ public class BrowserManager {
 		Reporter.log("Navigte to Browser as :" +Browser_Type+"URL:"+URL, true);
 		return driver;
 	}
+	
+	
 
 }
