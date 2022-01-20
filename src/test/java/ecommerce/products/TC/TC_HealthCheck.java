@@ -22,7 +22,7 @@ public class TC_HealthCheck {
 		obj.submit_login();
 		obj.login_validation();
 		
-		
+		driver.close();
 		
 		
 	}

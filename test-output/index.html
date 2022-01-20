@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Practice_Suite" class="navigator-link ">
-                    <span>D:\API\TestNg\src\test\resources\TestNGRunner.xml</span>
+                    <span>D:\JavaDemo\DemoProject\TestNg\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,12 +104,12 @@
                     <div class="method-list-content passed suite-Practice_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Practice_Suite" title="ecommerce.products.API.Test_Update_user_details" class="method navigator-link" hash-for-method="ListUsers">ListUsers</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Practice_Suite" title="ecommerce.products.TC.TC_CustomerMenuNavigation" class="method navigator-link" hash-for-method="TC_CustomerMenu(chrome, https://admin-demo.nopcommerce.com/)">TC_CustomerMenu(chrome, https://admin-demo.nopcommerce.com/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Practice_Suite" title="ecommerce.products.API.Test_api_list_users" class="method navigator-link" hash-for-method="getUsers">getUsers</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Practice_Suite" title="ecommerce.products.TC.TC_HealthCheck" class="method navigator-link" hash-for-method="TC_ecommerce_search(chrome, https://admin-demo.nopcommerce.com/)">TC_ecommerce_search(chrome, https://admin-demo.nopcommerce.com/)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Practice_Suite -->
@@ -127,14 +127,15 @@
           <div class="suite-Practice_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">ecommerce.products.API.Test_api_list_users</span>
+              <span class="class-name">ecommerce.products.TC.TC_CustomerMenuNavigation</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="getUsers">
-                  </a> <!-- getUsers -->
-                  <span class="method-name">getUsers</span>
+                  <a name="TC_CustomerMenu(chrome, https://admin-demo.nopcommerce.com/)">
+                  </a> <!-- TC_CustomerMenu(chrome, https://admin-demo.nopcommerce.com/) -->
+                  <span class="method-name">TC_CustomerMenu</span>
+                  <span class="parameters">(chrome, https://admin-demo.nopcommerce.com/)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -142,14 +143,15 @@
           <div class="suite-Practice_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">ecommerce.products.API.Test_Update_user_details</span>
+              <span class="class-name">ecommerce.products.TC.TC_HealthCheck</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="ListUsers">
-                  </a> <!-- ListUsers -->
-                  <span class="method-name">ListUsers</span>
+                  <a name="TC_ecommerce_search(chrome, https://admin-demo.nopcommerce.com/)">
+                  </a> <!-- TC_ecommerce_search(chrome, https://admin-demo.nopcommerce.com/) -->
+                  <span class="method-name">TC_ecommerce_search</span>
+                  <span class="parameters">(chrome, https://admin-demo.nopcommerce.com/)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -157,7 +159,7 @@
         </div> <!-- panel Practice_Suite -->
         <div panel-name="test-xml-Practice_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\API\TestNg\src\test\resources\TestNGRunner.xml</span>
+            <span class="header-content">D:\JavaDemo\DemoProject\TestNg\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -168,8 +170,8 @@
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;parameter name=&quot;url&quot; value=&quot;https://admin-demo.nopcommerce.com/&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;ecommerce.products.API.Test_api_list_users&quot;/&gt;
-      &lt;class name=&quot;ecommerce.products.API.Test_Update_user_details&quot;/&gt;
+      &lt;class name=&quot;ecommerce.products.TC.TC_HealthCheck&quot;/&gt;
+      &lt;class name=&quot;ecommerce.products.TC.TC_CustomerMenuNavigation&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Ecommerce Application Test --&gt;
 &lt;/suite&gt; &lt;!-- Practice Suite --&gt;
@@ -211,18 +213,18 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'getUsers')
-data.setCell(0, 2, 'ecommerce.products.API.Test_api_list_users')
-data.setCell(0, 3, 311176);
+data.setCell(0, 1, 'TC_ecommerce_search')
+data.setCell(0, 2, 'ecommerce.products.TC.TC_HealthCheck')
+data.setCell(0, 3, 57947);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'ListUsers')
-data.setCell(1, 2, 'ecommerce.products.API.Test_Update_user_details')
-data.setCell(1, 3, 1063);
+data.setCell(1, 1, 'TC_CustomerMenu')
+data.setCell(1, 2, 'ecommerce.products.TC.TC_CustomerMenuNavigation')
+data.setCell(1, 3, 31723);
 window.suiteTableData['Practice_Suite']= { tableData: data, tableDiv: 'times-div-Practice_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Practice_Suite">
               </div> <!-- times-div-Practice_Suite -->
             </div> <!-- times-div -->
@@ -233,6 +235,27 @@ return data;
             <span class="header-content">Reporter output for Practice Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_ecommerce_search(chrome, https://admin-demo.nopcommerce.com/)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigte to Browser as :chromeURL:https://admin-demo.nopcommerce.com/</span>
+                <span class="reporter-method-output">Able to enter the user email</span>
+                <span class="reporter-method-output">Able to enter the user password</span>
+                <span class="reporter-method-output">User is able to click on the login Button</span>
+                <span class="reporter-method-output">user successfully logged In</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">TC_CustomerMenu(chrome, https://admin-demo.nopcommerce.com/)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Navigte to Browser as :chromeURL:https://admin-demo.nopcommerce.com/</span>
+                <span class="reporter-method-output">Able to enter the user email</span>
+                <span class="reporter-method-output">Able to enter the user password</span>
+                <span class="reporter-method-output">User is able to click on the login Button</span>
+                <span class="reporter-method-output">user successfully logged In</span>
+                <span class="reporter-method-output">Able to navigate Customers menu</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Practice_Suite" class="panel">
@@ -248,17 +271,17 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">ecommerce.products.API.Test_api_list_users</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">ecommerce.products.TC.TC_HealthCheck</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">getUsers</span>
+                <span class="method-name">TC_ecommerce_search(chrome, https://admin-demo.nopcommerce.com/)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">ecommerce.products.API.Test_Update_user_details</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">ecommerce.products.TC.TC_CustomerMenuNavigation</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">ListUsers</span>
-                <span class="method-start">311194 ms</span>
+                <span class="method-name">TC_CustomerMenu(chrome, https://admin-demo.nopcommerce.com/)</span>
+                <span class="method-start">57956 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

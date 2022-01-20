@@ -26,6 +26,8 @@ public class TC_CustomerMenuNavigation {
 		PO_CustomersPage obj1=PageFactory.initElements(driver, PO_CustomersPage.class);
 		obj1.customerMenu();
 		
+		driver.close();
+		
 	}
 
 }
