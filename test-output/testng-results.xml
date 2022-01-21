@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Navigte to Browser as :chromeURL:https://admin-demo.nopcommerce.com/]]>
@@ -16,13 +16,67 @@
     <line>
       <![CDATA[user successfully logged In]]>
     </line>
+    <line>
+      <![CDATA[Navigte to Browser as :chromeURL:https://admin-demo.nopcommerce.com/]]>
+    </line>
+    <line>
+      <![CDATA[Able to enter the user email]]>
+    </line>
+    <line>
+      <![CDATA[Able to enter the user password]]>
+    </line>
+    <line>
+      <![CDATA[User is able to click on the login Button]]>
+    </line>
+    <line>
+      <![CDATA[user successfully logged In]]>
+    </line>
+    <line>
+      <![CDATA[Able to navigate Customers menu]]>
+    </line>
   </reporter-output>
-  <suite started-at="2021-12-30T01:36:33 IST" name="Practice Suite" finished-at="2021-12-30T01:37:32 IST" duration-ms="59764">
+  <suite started-at="2022-01-20T20:50:30 IST" name="Practice Suite" finished-at="2022-01-20T20:52:00 IST" duration-ms="89751">
     <groups>
     </groups>
-    <test started-at="2021-12-30T01:36:33 IST" name="Ecommerce Application Test" finished-at="2021-12-30T01:37:32 IST" duration-ms="59764">
+    <test started-at="2022-01-20T20:50:30 IST" name="Ecommerce Application Test" finished-at="2022-01-20T20:52:00 IST" duration-ms="89751">
+      <class name="ecommerce.products.TC.TC_CustomerMenuNavigation">
+        <test-method signature="TC_CustomerMenu(java.lang.String,java.lang.String)[pri:0, instance:ecommerce.products.TC.TC_CustomerMenuNavigation@32eff876]" started-at="2022-01-20T20:51:28 IST" name="TC_CustomerMenu" finished-at="2022-01-20T20:52:00 IST" duration-ms="31723" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://admin-demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Navigte to Browser as :chromeURL:https://admin-demo.nopcommerce.com/]]>
+            </line>
+            <line>
+              <![CDATA[Able to enter the user email]]>
+            </line>
+            <line>
+              <![CDATA[Able to enter the user password]]>
+            </line>
+            <line>
+              <![CDATA[User is able to click on the login Button]]>
+            </line>
+            <line>
+              <![CDATA[user successfully logged In]]>
+            </line>
+            <line>
+              <![CDATA[Able to navigate Customers menu]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_CustomerMenu -->
+      </class> <!-- ecommerce.products.TC.TC_CustomerMenuNavigation -->
       <class name="ecommerce.products.TC.TC_HealthCheck">
-        <test-method signature="TC_ecommerce_search(java.lang.String,java.lang.String)[pri:0, instance:ecommerce.products.TC.TC_HealthCheck@3f197a46]" started-at="2021-12-30T01:36:33 IST" name="TC_ecommerce_search" finished-at="2021-12-30T01:37:32 IST" duration-ms="59386" status="PASS">
+        <test-method signature="TC_ecommerce_search(java.lang.String,java.lang.String)[pri:0, instance:ecommerce.products.TC.TC_HealthCheck@402bba4f]" started-at="2022-01-20T20:50:30 IST" name="TC_ecommerce_search" finished-at="2022-01-20T20:51:28 IST" duration-ms="57947" status="PASS">
           <params>
             <param index="0">
               <value>
